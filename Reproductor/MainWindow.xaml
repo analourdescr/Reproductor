@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Reproductor"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="246.652" Width="800">
     <Grid>
         <TextBlock x:Name="lbl_Direccion_Archivo" HorizontalAlignment="Left" Margin="20,21,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="-2.255,-0.447"><Run Text="Archivo"/><LineBreak/><Run/></TextBlock>
         <TextBox x:Name="txt_Direccion_Archivo" HorizontalAlignment="Left" Height="23" Margin="20,46,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="524"/>
