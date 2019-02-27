@@ -13,7 +13,8 @@
         <Button x:Name="btn_Reproducir" Content="Reproducir" HorizontalAlignment="Left" Margin="20,90,0,0" VerticalAlignment="Top" Width="81" RenderTransformOrigin="-0.013,0.65" Height="23" Click="btn_Reproducir_Click"/>
         <Button x:Name="btn_Pausa" Content="Pausa" HorizontalAlignment="Left" Margin="126,90,0,0" VerticalAlignment="Top" Width="84" RenderTransformOrigin="-0.013,0.65" Height="23" Click="btn_Pausa_Click" IsEnabled="False"/>
         <Button x:Name="btn_Detener" Content="Detener" HorizontalAlignment="Left" Margin="235,90,0,0" VerticalAlignment="Top" Width="81" RenderTransformOrigin="-0.013,0.65" Height="23" Click="btn_Detener_Click" IsEnabled="False"/>
-        <Slider x:Name="sld_Reproduccion" HorizontalAlignment="Left" Margin="20,137,0,0" VerticalAlignment="Top" Width="524" ValueChanged="sld_Reproduccion_ValueChanged"/>
+        <Slider x:Name="sld_Reproduccion" HorizontalAlignment="Left" Margin="20,137,0,0" VerticalAlignment="Top" Width="524" ValueChanged="sld_Reproduccion_ValueChanged"
+                Thumb.DragStarted="sld_Reproduccion_DragStarted"/>
         <TextBlock x:Name="lbl_Tiempo_Actual" HorizontalAlignment="Left" Margin="20,172,0,0" TextWrapping="Wrap" Text="00:00" VerticalAlignment="Top"/>
         <TextBlock x:Name="lbl_Tiempo_Total" HorizontalAlignment="Left" Margin="516,172,0,0" TextWrapping="Wrap" Text="00:00" VerticalAlignment="Top" RenderTransformOrigin="1.475,0.564"/>
         <TextBlock x:Name="lbl_Volumen" HorizontalAlignment="Left" Margin="693,46,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="20"><Run Text="Volumen"/><LineBreak/><Run/></TextBlock>
